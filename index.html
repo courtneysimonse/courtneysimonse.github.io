@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Courtney Simonse's Mapping Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS from CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Google web font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Courtney Simonse's Mapping Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Welcome Section -->
+    <header class="bg-primary text-white">
+      <div class="container text-center">
+        <h1>Welcome to my portfolio!</h1>
+        <!-- <p class="lead">Built for you with love by @rgdonohue<br> using <a href="https://getbootstrap.com/">Bootstrap</a> and several starter templates from <a href="https://startbootstrap.com/">Start Bootstrap</a></p> -->
+      </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a target="_blank" href="https://courtneysimonse.github.io/hometown-map/"><img class="card-img-top" src="images/hometown-map.jpg" alt="Murray, KY"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a target="_blank" href="https://courtneysimonse.github.io/hometown-map/">Map of Murray, Kentucky</a>
+                </h4>
+                <p class="card-text">This is a map of my hometown, Murray, Kentucky, using Leaflet. I have marked various points of interest with custom markers.  The popups include information about the place, including links and images. For the marked path, I used online tools to convert Google Maps directions to a GeoJSON.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a target="_blank" href="https://courtneysimonse.github.io/denver-amenities"><img class="card-img-top" src="images/denver-amenities.jpg" alt="Amenities in Denver"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a target="_blank" href="https://courtneysimonse.github.io/denver-amenities">Amenities in Denver</a>
+                </h4>
+                <p class="card-text">I used Leaflet to create this map, which shows various amenities (with a tooltip showing the name) within a 1 km radius of a user's click. The points outside the radius fade. The three layers can be toggled on/off.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a target="_blank" href="https://nmp.carto.com/u/courtneysimonse/builder/5547fc9b-a37b-4b8a-8416-08d368a3e096/embed"><img class="card-img-top" src="images/wildfire-locations.jpg" alt="Wildfire Locations and Burn Area, 2013"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a target="_blank" href="https://nmp.carto.com/u/courtneysimonse/builder/5547fc9b-a37b-4b8a-8416-08d368a3e096/embed">Wildfire Locations and Area Burned, 2013</a>
+                </h4>
+                <p class="card-text">This is a map of wildfire locations and total area burned in a county in the United States in 2013 made in CARTO. The individual wildfires are symbolized by graduated points corresponding to the size. I aggregated these by county to give a choropleth map showing the percent of total area burned. The opacity of the points change on zoom level and pop-ups give information about the selected item.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a "_blank" href="https://nmp.carto.com/u/courtneysimonse/builder/3b0e2ae4-013e-417d-af35-9ce6fa53c214/embed"><img class="card-img-top" src="images/driving-jobs.jpg" alt="Truck Driving and Taxi/Limo Employment in the US"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a target="_blank" href="https://nmp.carto.com/u/courtneysimonse/builder/3b0e2ae4-013e-417d-af35-9ce6fa53c214/embed">Driving-Related Jobs in the US</a>
+                </h4>
+                <p class="card-text">I created this map in CARTO to demonstrate possible impacts of self-driving car technology on employment, using truck driving and taxi/limo drivers as jobs that may be reduced. The zoomed-out view shows the aggregated value of driving jobs by state as a percent of total employment. Zooming in shows the county values.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a target="_blank" href="https://courtneysimonse.github.io/power-generation"><img class="card-img-top" src="images/power-generation.jpg" alt="Coal and Natural Gas Power Plants in the US"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a target="_blank" href="https://courtneysimonse.github.io/power-generation">Power Generation in the United States</a>
+                </h4>
+                <p class="card-text">I created this map using Leaflet to show coal and natural gas power plants in the United States. The plants are marked by circles, where the radius is proportional to the power output. On mouseover, the marker changes color and returns on mouseout. Clicking on a circle gives an informational popup. I filtered the GeoJSON data using Leaflet's functions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a target="_blank" href="https://courtneysimonse.github.io/average-rent"><img class="card-img-top" src="images/average-rent.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a target="_blank" href="https://courtneysimonse.github.io/average-rent">Average Rent in the US</a>
+                </h4>
+                <p class="card-text">I used Leaflet to create this map of the average rent in the United States by county. I loaded the data using AJAX with the jQuery JavaScript library. I created a styled legend with the colors and corresponding rent range. I then added state outlines as well. I used jQuery to list the counties from highest to lowest median rent and clicking zooms in the map to the selected county.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <!-- About Section -->
+   <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <h2>About me</h2>
+            <div class='my-5 clearfix'>
+              <div class="float-md-left mb-5 mr-md-4"><img class="rounded-circle img-fluid" src="images/profile-pic.jpg" alt="" style="width:200px"></div>
+              <p class="lead">My name is Courtney Simonse. I am a student in the New Maps Plus program at the University of Kentucky. I graduated from the University of Notre Dame with a B.S. in Chemical Engineering. I have experience in air dispersion modeling, including running AERMOD and mapping results.</p>
+              <p class="lead">In my free time, I enjoy reading, traveling, and running half marathons.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Skills</h3>
+            <dl>
+                <dt>GIS</dt>
+                <dd>QGIS for data analysis, manipulation, and, format conversion</dd>
+                <dd>SQL for data querying</dd>
+                <dt>Web Mapping</dt>
+                <dd>Leaflet</dd>
+                <dd>CARTO</dd>
+                <dt>Coding</dt>
+                <dd>JavaScript (beginner)</dd>
+                <dt>Data Analysis</dt>
+                <dd>Excel</dd>
+              </dl>
+          </div>
+          <div class="col-md-6">
+              <h3>Get in touch!</h3>
+              <ul class="list-unstyled">
+                  <!-- <li class=""><i class="fa fa-twitter mr-2"></i><a target="_blank" href="https://twitter.com/courtneysimonse">@courtneysimonse</a></li> -->
+                  <li class=" mr-2"><i class="fa fa-github mr-2"></i><a target="_blank" href="https://github.com/courtneysimonse">courtneysimonse</a></li>
+                  <li class=""><i class="fa fa-envelope mr-2"></i><a href="mailto:courtneysimonse@gmail.com">courtneysimonse@gmail.com</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-primary">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+      </div>
+    </footer>
+
+    <!-- JQuery JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript Plugin -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>
