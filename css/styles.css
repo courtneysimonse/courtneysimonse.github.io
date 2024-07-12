@@ -32,3 +32,7 @@ section {
   background: url('../images/header-background.png') fixed center no-repeat;
    background-size: cover;
 }
+
+.link-light {
+  color: #5a5a5a;
+}
